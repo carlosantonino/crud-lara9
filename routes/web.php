@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/empresa' , function (){
-    return view('empresa');
+    return view('site/empresa');
 });
